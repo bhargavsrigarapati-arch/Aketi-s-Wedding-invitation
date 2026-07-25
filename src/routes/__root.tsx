@@ -86,8 +86,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Gayatri Devi ❤ Naresh Kumar — Wedding Invitation" },
       { name: "twitter:description", content: "Join us on August 27th, 2026 at Deepika Convention, Peravali, AP as Gayatri Devi & Naresh Kumar begin their journey together." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/06615182-95a1-460f-a7b7-bb3dedcc6cdd" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/06615182-95a1-460f-a7b7-bb3dedcc6cdd" },
+      { property: "og:image", content: "https://naresh-gayatri-invitation.vercel.app/thumbnail.jpg" },
+      { name: "twitter:image", content: "https://naresh-gayatri-invitation.vercel.app/thumbnail.jpg" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
