@@ -24,10 +24,6 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "Join us on August 27th, 2026 at Deepika Convention, Peravali, AP as Gayatri Devi & Naresh Kumar begin their journey together." },
       { property: "og:title", content: "Gayatri Devi ❤ Naresh Kumar — Wedding Invitation" },
       { property: "og:description", content: "Join us on August 27th, 2026 at Deepika Convention, Peravali, AP as Gayatri Devi & Naresh Kumar begin their journey together." },
-      { property="og:image" content="https://naresh-gayatri-invitation.vercel.app/thumbnail.jpg" },
-      { property="og:image:width" content="1200" },
-      { property="og:image:height" content="630" },
-      { property="og:image:type" content="image/jpeg" }
     ],
   }),
 });
