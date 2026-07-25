@@ -245,7 +245,7 @@ function Opening({ onOpen }: { onOpen: () => void }) {
         >
           <div className="mx-auto h-px w-40 divider-gold" />
           <div className="mt-6 font-[var(--font-script)] text-4xl shimmer-text sm:text-5xl">
-            {BRIDE.split(" ")[0]} &amp; {GROOM.split(" ")[0]}
+            Aketi's Wedding Invitaion
           </div>
           <div className="mx-auto mt-6 h-px w-40 divider-gold" />
         </motion.div>
