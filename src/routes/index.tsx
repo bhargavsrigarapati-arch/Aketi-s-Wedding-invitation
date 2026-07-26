@@ -340,44 +340,43 @@ function Hero({ guestName }: { guestName: string | null }) {
           Together with our families
         </motion.div>
 
-       {/* Parents Section */}
+{/* Parents Section */}
 
 <motion.div
   initial={{ opacity: 0, y: 30 }}
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true }}
   transition={{ duration: 0.8 }}
-  className="mt-10 mb-14"
+  className="mt-8 mb-12"
 >
-  <div className="mx-auto max-w-6xl">
+  <div className="mx-auto max-w-5xl">
 
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-14 lg:gap-24 items-start">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20">
 
-      {/* Groom Parents */}
+      {/* Groom */}
+      <div className="text-center">
 
-      <div className="text-center overflow-visible">
+        <div className="flex items-center justify-center gap-3 mb-4">
+          <div className="h-px w-10 divider-gold" />
 
-        <div className="flex items-center justify-center gap-3 mb-5">
-          <div className="h-px w-12 divider-gold"></div>
-
-          <span className="font-[var(--font-display)] text-xs uppercase tracking-[0.35em] text-[#D4AF37]">
+          <span className="font-[var(--font-display)] text-[11px] uppercase tracking-[0.35em] text-[#D4AF37]">
             Groom's Parents
           </span>
 
-          <div className="h-px w-12 divider-gold"></div>
+          <div className="h-px w-10 divider-gold" />
         </div>
 
-        <h5
-          className="text-[2.3rem] md:text-[2.8rem] font-medium text-[#B8860B] leading-[1.45] py-2 overflow-visible"
+        <h3
+          className="text-[1.75rem] md:text-[2rem] font-semibold text-[#B8860B] leading-[1.5]"
           style={{
             fontFamily: "'Noto Serif Telugu', serif",
           }}
         >
           ఆకేటి సాయిబాబా
-        </h5>
+        </h3>
 
         <p
-          className="mt-3 text-[1.55rem] md:text-[1.7rem] text-[#5C4033] leading-[1.5]"
+          className="mt-2 text-[1.25rem] md:text-[1.35rem] text-[#5C4033] leading-[1.5]"
           style={{
             fontFamily: "'Noto Serif Telugu', serif",
           }}
@@ -387,31 +386,30 @@ function Hero({ guestName }: { guestName: string | null }) {
 
       </div>
 
-      {/* Bride Parents */}
+      {/* Bride */}
+      <div className="text-center">
 
-      <div className="text-center overflow-visible">
+        <div className="flex items-center justify-center gap-3 mb-4">
+          <div className="h-px w-10 divider-gold" />
 
-        <div className="flex items-center justify-center gap-3 mb-5">
-          <div className="h-px w-12 divider-gold"></div>
-
-          <span className="font-[var(--font-display)] text-xs uppercase tracking-[0.35em] text-[#D4AF37]">
+          <span className="font-[var(--font-display)] text-[11px] uppercase tracking-[0.35em] text-[#D4AF37]">
             Bride's Parents
           </span>
 
-          <div className="h-px w-12 divider-gold"></div>
+          <div className="h-px w-10 divider-gold" />
         </div>
 
-        <h5
-          className="text-[2.3rem] md:text-[2.8rem] font-medium text-[#B8860B] leading-[1.45] py-2 overflow-visible"
+        <h3
+          className="text-[1.75rem] md:text-[2rem] font-semibold text-[#B8860B] leading-[1.5]"
           style={{
             fontFamily: "'Noto Serif Telugu', serif",
           }}
         >
           కొవ్వూరి సురేష్
-        </h5>
+        </h3>
 
         <p
-          className="mt-3 text-[1.55rem] md:text-[1.7rem] text-[#5C4033] leading-[1.5]"
+          className="mt-2 text-[1.25rem] md:text-[1.35rem] text-[#5C4033] leading-[1.5]"
           style={{
             fontFamily: "'Noto Serif Telugu', serif",
           }}
