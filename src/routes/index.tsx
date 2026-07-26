@@ -358,9 +358,10 @@ function Hero({ guestName }: { guestName: string | null }) {
         </div>
 
         <h3
-          className="text-[1.75rem] md:text-[2rem] font-semibold text-[#B8860B] leading-[1.5]"
-          style={{
-            fontFamily: "'Noto Serif Telugu', serif",
+          className="text-[1.55rem] md:text-[1.75rem] font-medium text-[#A67C00] leading-[1.75] tracking-wide"
+  style={{
+    fontFamily: "'Mandali', sans-serif",
+    textShadow: "0 1px 3px rgba(212,175,55,0.25)",
           }}
         >
           ఆకేటి సాయిబాబా
@@ -391,9 +392,10 @@ function Hero({ guestName }: { guestName: string | null }) {
         </div>
 
         <h3
-          className="text-[1.75rem] md:text-[2rem] font-semibold text-[#B8860B] leading-[1.5]"
-          style={{
-            fontFamily: "'Noto Serif Telugu', serif",
+          className="text-[1.55rem] md:text-[1.75rem] font-medium text-[#A67C00] leading-[1.75] tracking-wide"
+  style={{
+    fontFamily: "'Mandali', sans-serif",
+    textShadow: "0 1px 3px rgba(212,175,55,0.25)",
           }}
         >
           కొవ్వూరి సురేష్
