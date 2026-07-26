@@ -21,9 +21,9 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Aketi's Wedding Invitation" },
-      { name: "description", content: "Join us on August 27th, 2026 at Deepika Convention, Peravali, AP as Gayatri Devi & Naresh Kumar begin their journey together." },
+      { name: "description", content: "Join us on August 27th, 2026 at Deepika Convention, Peravali, AP as Naresh Kumar & Gayatri Devi begin their journey together." },
       { property: "og:title", content: "Aketi's Wedding Invitation" },
-      { property: "og:description", content: "Join us on August 27th, 2026 at Deepika Convention, Peravali, AP as Gayatri Devi & Naresh Kumar begin their journey together." },
+      { property: "og:description", content: "Join us on August 27th, 2026 at Deepika Convention, Peravali, AP as Naresh Kumar & Gayatri Devi begin their journey together." },
     ],
   }),
 });
