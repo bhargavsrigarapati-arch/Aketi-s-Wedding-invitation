@@ -460,7 +460,7 @@ function InviteMessage() {
           the newlyweds with your presence.”
         </p>
         <div className="mt-8 font-[var(--font-script)] text-3xl shimmer-text">
-          — Gayatri &amp; Naresh
+          — Naresh &amp; Gayatri
         </div>
       </motion.div>
     </SectionWrap>
@@ -773,7 +773,7 @@ function toICSDate(d: Date) {
 function AddToCalendar() {
   const start = WEDDING_DATE;
   const end = new Date(start.getTime() + 3 * 60 * 60 * 1000);
-  const title = `Wedding of ${BRIDE} & ${GROOM}`;
+  const title = `Wedding of ${GROOM} & ${BRIDE}`;
   const details = `Join us at ${VENUE.name}, ${VENUE.address}`;
 
   const gcal = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${toICSDate(start)}/${toICSDate(end)}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(VENUE.address)}`;
@@ -828,7 +828,7 @@ function Footer() {
           “Your presence is the greatest blessing.”
         </p>
         <div className="mt-10 font-[var(--font-script)] text-5xl shimmer-text sm:text-6xl">
-          {BRIDE.split(" ")[0]} <Heart className="inline text-maroon" size={22} fill="currentColor" /> {GROOM.split(" ")[0]}
+          {GROOM.split(" ")[0]} <Heart className="inline text-maroon" size={22} fill="currentColor" /> {BRIDE.split(" ")[0]}
         </div>
         <div className="mt-4 font-[var(--font-display)] tracking-[0.3em] text-brown">
           AUGUST · 27 · 2026
