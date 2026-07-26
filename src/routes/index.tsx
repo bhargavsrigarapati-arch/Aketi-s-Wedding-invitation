@@ -229,17 +229,27 @@ function Opening({ onOpen }: { onOpen: () => void }) {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 1.3, duration: 0.8 }}
-          className="mb-10"
-        >
-          <div className="mx-auto h-px w-40 divider-gold" />
-          <div className="mt-6 font-[var(--font-script)] text-4xl shimmer-text sm:text-5xl">
-            AKETI'S WEDDING INVITATION
-          </div>
-          <div className="mx-auto mt-6 h-px w-40 divider-gold" />
-        </motion.div>
+  initial={{ opacity: 0, scale: 0.9 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ delay: 1.3, duration: 0.8 }}
+  className="mb-10"
+>
+  <div className="mx-auto h-px w-32 divider-gold" />
+
+  <h1
+    className="mt-6 text-center font-[var(--font-display)] text-[2.4rem] md:text-[3.6rem] font-medium uppercase leading-[1.05] tracking-[0.08em] text-[#B8860B]"
+    style={{
+      fontFamily: "'Cormorant Garamond', serif",
+      textShadow: "0 3px 15px rgba(212,175,55,0.18)",
+    }}
+  >
+    Aketi's Wedding
+    <br />
+    Invitation
+  </h1>
+
+  <div className="mx-auto mt-6 h-px w-32 divider-gold" />
+</motion.div>
 
         <motion.button
           initial={{ opacity: 0, y: 20 }}
