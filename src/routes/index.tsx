@@ -236,6 +236,11 @@ function Opening({ onOpen }: { onOpen: () => void }) {
         >
           <div className="mx-auto h-px w-40 divider-gold" />
           <div className="mt-6 font-[var(--font-script)] text-4xl shimmer-text sm:text-5xl">
+            style={{
+    fontFamily: "'Cormorant Garamond', serif",
+    textShadow: "0 3px 12px rgba(212,175,55,.18)",
+  }}
+>
   AKETI'S WEDDING INVITATION
 </div>
           <div className="mx-auto mt-6 h-px w-40 divider-gold" />
