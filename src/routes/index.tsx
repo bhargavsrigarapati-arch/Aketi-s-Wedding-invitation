@@ -235,17 +235,9 @@ function Opening({ onOpen }: { onOpen: () => void }) {
           className="mb-10"
         >
           <div className="mx-auto h-px w-40 divider-gold" />
-          <h1
-  className="mt-6 text-center text-[2.4rem] md:text-[3.4rem] font-medium leading-[1.05] tracking-[0.08em] text-[#B8860B]"
-  style={{
-    fontFamily: "'Cormorant Garamond', serif",
-    textShadow: "0 3px 12px rgba(212,175,55,.18)",
-  }}
->
-  Aketi's Wedding
-  <br />
-  Invitation
-</h1>
+          <div className="mt-6 font-[var(--font-script)] text-4xl shimmer-text sm:text-5xl">
+  AKETI'S WEDDING INVITATION
+</div>
           <div className="mx-auto mt-6 h-px w-40 divider-gold" />
         </motion.div>
 
