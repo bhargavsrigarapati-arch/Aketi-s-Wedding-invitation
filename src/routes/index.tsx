@@ -228,16 +228,20 @@ function Opening({ onOpen }: { onOpen: () => void }) {
           || శ్రీ గణేశాయ నమః ||
         </motion.div>
 
-        <motion.h1
-          initial={{ opacity: 0, filter: "blur(20px)" }}
-          animate={{ opacity: 1, filter: "blur(0px)" }}
-          transition={{ delay: 0.3, duration: 1.4 }}
-          className="font-[var(--font-script)] leading-[0.9]"
-        >
-          <span className="block text-5xl shimmer-text sm:text-7xl md:text-8xl">
-            {AAKETI'S WEDDING INVITATION}
-          </span>
-        </motion.h1>
+        <motion.div
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ delay: 1.3, duration: 0.8 }}
+  className="mb-10"
+>
+  <div className="mx-auto h-px w-40 divider-gold" />
+
+  <div className="mt-6 font-[var(--font-script)] text-4xl shimmer-text sm:text-5xl">
+    AKETI'S WEDDING INVITATION
+  </div>
+
+  <div className="mx-auto mt-6 h-px w-40 divider-gold" />
+</motion.div>
 
         <motion.button
           initial={{ opacity: 0, y: 20 }}
