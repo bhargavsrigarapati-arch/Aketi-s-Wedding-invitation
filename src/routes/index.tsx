@@ -20,9 +20,9 @@ export const Route = createFileRoute("/")({
   component: Invitation,
   head: () => ({
     meta: [
-      { title: "Gayatri Devi ❤ Naresh Kumar — Wedding Invitation" },
+      { title: "Aketi's Wedding Invitation" },
       { name: "description", content: "Join us on August 27th, 2026 at Deepika Convention, Peravali, AP as Gayatri Devi & Naresh Kumar begin their journey together." },
-      { property: "og:title", content: "Gayatri Devi ❤ Naresh Kumar — Wedding Invitation" },
+      { property: "og:title", content: "Aketi's Wedding Invitation" },
       { property: "og:description", content: "Join us on August 27th, 2026 at Deepika Convention, Peravali, AP as Gayatri Devi & Naresh Kumar begin their journey together." },
     ],
   }),
@@ -229,15 +229,6 @@ function Opening({ onOpen }: { onOpen: () => void }) {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 1 }}
-          className="mb-8 font-[var(--font-quote)] text-base text-brown/80 sm:text-lg"
-        >
-          With the blessings of our parents and elders
-        </motion.div>
-
-        <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 1.3, duration: 0.8 }}
@@ -310,7 +301,7 @@ function Hero({ guestName }: { guestName: string | null }) {
           className="font-[var(--font-script)] leading-[0.9]"
         >
           <span className="block text-5xl shimmer-text sm:text-7xl md:text-8xl">
-            {BRIDE}
+            {GROOM}
           </span>
           <motion.span
             initial={{ scale: 0 }}
@@ -321,7 +312,7 @@ function Hero({ guestName }: { guestName: string | null }) {
             <Heart className="inline" size={28} fill="currentColor" />
           </motion.span>
           <span className="block text-5xl shimmer-text sm:text-7xl md:text-8xl">
-            {GROOM}
+            {BRIDE}
           </span>
         </motion.h1>
 
