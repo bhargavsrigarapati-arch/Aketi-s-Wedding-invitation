@@ -341,6 +341,68 @@ function Hero({ guestName }: { guestName: string | null }) {
         </motion.div>
 
         <motion.div
+  initial={{ opacity: 0, y: 25 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.8 }}
+  className="mt-10 mb-12"
+>
+  <div className="mx-auto max-w-5xl">
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20">
+
+      {/* Groom Parents */}
+      <div className="text-center">
+
+        <div className="flex items-center justify-center gap-3 mb-4">
+          <div className="h-px w-10 divider-gold"></div>
+
+          <span className="font-[var(--font-display)] text-xs tracking-[0.35em] uppercase text-[#D4AF37]">
+            Groom's Parents
+          </span>
+
+          <div className="h-px w-10 divider-gold"></div>
+        </div>
+
+        <h3 className="font-[var(--font-script)] text-3xl md:text-4xl shimmer-text text-maroon">
+          ఆకేటి సాయిబాబా
+        </h3>
+
+        <p className="mt-3 text-xl text-brown">
+          దివ్యశ్రీ నాగ దుర్గ
+        </p>
+
+      </div>
+
+      {/* Bride Parents */}
+      <div className="text-center">
+
+        <div className="flex items-center justify-center gap-3 mb-4">
+          <div className="h-px w-10 divider-gold"></div>
+
+          <span className="font-[var(--font-display)] text-xs tracking-[0.35em] uppercase text-[#D4AF37]">
+            Bride's Parents
+          </span>
+
+          <div className="h-px w-10 divider-gold"></div>
+        </div>
+
+        <h3 className="font-[var(--font-script)] text-3xl md:text-4xl shimmer-text text-maroon">
+          కొవ్వూరి సురేష్
+        </h3>
+
+        <p className="mt-3 text-xl text-brown">
+          నాగ కనకదుర్గ
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+</motion.div>
+        
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2 }}
