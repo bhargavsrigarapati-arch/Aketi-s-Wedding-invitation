@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Cinzel:wght@400;500;600;700&family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap");
+
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
@@ -42,6 +44,8 @@
   --font-script: "Great Vibes", cursive;
   --font-body: "Poppins", sans-serif;
   --font-quote: "Cormorant Garamond", serif;
+  --font-display: "Cormorant Garamond", serif;
+  --font-script: "Cormorant Garamond", serif;
 }
 
 :root {
@@ -148,13 +152,3 @@
   -webkit-text-fill-color: transparent;
   animation: shimmer 4s linear infinite;
 }
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Great+Vibes&display=swap");
-
-@import "tailwindcss" source(none);
-@source "../src";
-@import "tw-animate-css";
-
---font-display: "Cormorant Garamond", serif;
---font-script: "Cormorant Garamond", serif;
---font-body: "Poppins", sans-serif;
---font-quote: "Cormorant Garamond", serif;
