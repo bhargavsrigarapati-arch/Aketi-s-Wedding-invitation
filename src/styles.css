@@ -158,3 +158,16 @@
 .font-migra {
   font-family: "Migra", serif;
 }
+
+.shimmer-text{
+    background: linear-gradient(
+        90deg,
+        #8a6415,
+        #dcb04b,
+        #fff2c7,
+        #dcb04b,
+        #8a6415
+    );
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
