@@ -236,22 +236,11 @@ function Opening({ onOpen }: { onOpen: () => void }) {
 >
   <div className="mx-auto h-px w-40 divider-gold" />
 
- <div
-  style={{
-    fontFamily: "'Cormorant Garamond', serif",
-    fontWeight: 600,
-    letterSpacing: "0.02em",
-    lineHeight: "0.9",
-  }}
-  className="mt-6 text-6xl sm:text-7xl md:text-8xl shimmer-text"
+<div
+  className="mt-6 font-good-vibes text-6xl sm:text-8xl font-normal text-[#C79A2B] tracking-wide leading-none drop-shadow-md"
 >
-  AKETI'S
-  <br />
-  WEDDING
-  <br />
-  INVITATION
+  AKETI'S WEDDING INVITATION
 </div>
-
   <div className="mx-auto mt-6 h-px w-40 divider-gold" />
 </motion.div>
 
