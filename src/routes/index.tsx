@@ -122,6 +122,58 @@ function MandalaBg({ className = "" }: { className?: string }) {
   );
 }
 
+function TitleFlourish({ className = "", flip = false }: { className?: string; flip?: boolean }) {
+  return (
+    <svg
+      viewBox="0 0 300 60"
+      className={className}
+      style={flip ? { transform: "scaleX(-1)" } : undefined}
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      {/* long tapering lead-in line */}
+      <path
+        d="M0 30 C 60 30, 90 22, 130 28 C 155 32, 165 30, 178 30"
+        stroke="#D4AF37"
+        strokeWidth="1"
+        strokeLinecap="round"
+      />
+      {/* inward curling spiral, like the loop trailing off the letterforms in the reference */}
+      <path
+        d="M178 30
+           C 196 30, 204 18, 196 10
+           C 190 4, 180 6, 179 14
+           C 178 20, 185 24, 191 20"
+        stroke="#D4AF37"
+        strokeWidth="1"
+        strokeLinecap="round"
+      />
+      {/* small companion tendril */}
+      <path
+        d="M150 28 C 156 20, 166 18, 172 24"
+        stroke="#D4AF37"
+        strokeWidth="0.75"
+        strokeLinecap="round"
+        opacity="0.7"
+      />
+      <circle cx="0" cy="30" r="1.6" fill="#D4AF37" />
+    </svg>
+  );
+}
+
+function CornerAccent({ className = "" }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 120 120"
+      className={className}
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line x1="10" y1="110" x2="110" y2="10" stroke="#D4AF37" strokeWidth="1" opacity="0.55" />
+    </svg>
+  );
+}
+
 /* ---------------- Music player ---------------- */
 
 function MusicPlayer({ playing, setPlaying, audioRef }: {
@@ -208,6 +260,8 @@ function Opening({ onOpen }: { onOpen: () => void }) {
       <MandalaBg className="absolute -left-40 -top-40 h-[600px] w-[600px] float-slow" />
       <MandalaBg className="absolute -bottom-40 -right-40 h-[600px] w-[600px] float-slow" />
       <Sparkles3 />
+      <CornerAccent className="pointer-events-none absolute -right-4 top-6 h-24 w-24 sm:h-32 sm:w-32" />
+      <CornerAccent className="pointer-events-none absolute -left-4 bottom-6 h-24 w-24 sm:h-32 sm:w-32" />
 
       <div className="relative z-10 mx-auto max-w-2xl px-6 text-center">
         <motion.div
@@ -234,17 +288,20 @@ function Opening({ onOpen }: { onOpen: () => void }) {
   transition={{ delay: 1.3, duration: 0.8 }}
   className="mb-10"
 >
-  <div className="mx-auto h-px w-40 divider-gold" />
+  <div className="flex items-center justify-center gap-3">
+    <TitleFlourish className="h-10 w-28 sm:h-12 sm:w-32" />
+    <TitleFlourish className="h-10 w-28 sm:h-12 sm:w-32" flip />
+  </div>
 
   <div
   className="
-    mt-6
+    mt-4
     font-[var(--font-hero)]
     italic
     text-5xl
     sm:text-6xl
     md:text-7xl
-    font-bold
+    font-semibold
     tracking-normal
     leading-[0.95]
     shimmer-text
@@ -257,7 +314,9 @@ function Opening({ onOpen }: { onOpen: () => void }) {
   INVITATION
 </div>
 
-  <div className="mx-auto mt-6 h-px w-40 divider-gold" />
+  <div className="mt-4 flex items-center justify-center gap-3">
+    <TitleFlourish className="h-10 w-28 sm:h-12 sm:w-32" flip />
+    <TitleFlourish className="h-10 w-28 sm:h-12 sm:w-32" />
 </motion.div>
 
         <motion.button
