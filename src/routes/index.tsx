@@ -293,22 +293,10 @@ function Opening({ onOpen }: { onOpen: () => void }) {
     <TitleFlourish className="h-10 w-28 sm:h-12 sm:w-32" flip />
   </div>
 
-  <div
-  className="
-    mt-4
-    font-[var(--font-script)]
-    text-6xl
-    sm:text-7xl
-    md:text-8xl
-    leading-[1.05]
-    shimmer-text
-  "
->
+  <div className="mt-6 font-cormorant text-4xl shimmer-text sm:text-5xl tracking-[0.08em]">
   AKETI'S
   <br />
-  WEDDING
-  <br />
-  INVITATION
+  WEDDING INVITATION
 </div>
 
   <div className="mt-4 flex items-center justify-center gap-3">
