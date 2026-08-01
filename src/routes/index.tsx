@@ -236,18 +236,14 @@ function Opening({ onOpen }: { onOpen: () => void }) {
 >
   <div className="mx-auto h-px w-40 divider-gold" />
 
-  <div
-  className="
-    mt-6
-    font-[var(--font-display)]
-    text-5xl
-    sm:text-6xl
-    md:text-7xl
-    font-medium
-    tracking-[0.02em]
-    leading-[0.95]
-    shimmer-text
-  "
+ <div
+  style={{
+    fontFamily: "'Cormorant Garamond', serif",
+    fontWeight: 600,
+    letterSpacing: "0.02em",
+    lineHeight: "0.9",
+  }}
+  className="mt-6 text-6xl sm:text-7xl md:text-8xl shimmer-text"
 >
   AKETI'S
   <br />
