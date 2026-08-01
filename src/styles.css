@@ -42,6 +42,7 @@
   --font-script: "Great Vibes", cursive;
   --font-body: "Poppins", sans-serif;
   --font-quote: "Cormorant Garamond", serif;
+  --font-hero: "Playfair Display", serif;
 }
 
 :root {
@@ -148,13 +149,13 @@
   -webkit-text-fill-color: transparent;
   animation: shimmer 4s linear infinite;
 }
-@font-face {
-  font-family: "Good Vibes";
-  src: url("/fonts/GoodVibes-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Great+Vibes&display=swap");
 
-.font-good-vibes {
-  font-family: "Good Vibes", cursive;
-}
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+--font-display: "Cormorant Garamond", serif;
+--font-script: "Cormorant Garamond", serif;
+--font-body: "Poppins", sans-serif;
+--font-quote: "Cormorant Garamond", serif;
