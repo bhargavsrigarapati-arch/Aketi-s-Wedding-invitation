@@ -236,8 +236,22 @@ function Opening({ onOpen }: { onOpen: () => void }) {
 >
   <div className="mx-auto h-px w-40 divider-gold" />
 
-  <div className="mt-6 text-5xl sm:text-6xl font-migra tracking-tight shimmer-text">
-  AKETI'S WEDDING INVITATION
+  <div
+  className="
+    mt-6
+    font-[var(--font-display)]
+    text-6xl
+    sm:text-7xl
+    md:text-8xl
+    leading-none
+    tracking-tight
+    font-semibold
+    shimmer-text
+  "
+>
+  AKETI'S
+  <br />
+  WEDDING INVITATION
 </div>
 
   <div className="mx-auto mt-6 h-px w-40 divider-gold" />
