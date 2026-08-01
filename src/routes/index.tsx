@@ -240,18 +240,20 @@ function Opening({ onOpen }: { onOpen: () => void }) {
   className="
     mt-6
     font-[var(--font-display)]
-    text-6xl
-    sm:text-7xl
-    md:text-8xl
-    leading-none
-    tracking-tight
-    font-semibold
+    text-5xl
+    sm:text-6xl
+    md:text-7xl
+    font-medium
+    tracking-[0.02em]
+    leading-[0.95]
     shimmer-text
   "
 >
   AKETI'S
   <br />
-  WEDDING INVITATION
+  WEDDING
+  <br />
+  INVITATION
 </div>
 
   <div className="mx-auto mt-6 h-px w-40 divider-gold" />
