@@ -317,6 +317,7 @@ function Opening({ onOpen }: { onOpen: () => void }) {
   <div className="mt-4 flex items-center justify-center gap-3">
     <TitleFlourish className="h-10 w-28 sm:h-12 sm:w-32" flip />
     <TitleFlourish className="h-10 w-28 sm:h-12 sm:w-32" />
+  </div>
 </motion.div>
 
         <motion.button
