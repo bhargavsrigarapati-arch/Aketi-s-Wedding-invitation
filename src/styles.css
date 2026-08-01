@@ -153,3 +153,8 @@
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
+
+--font-display: "Cormorant Garamond", serif;
+--font-script: "Cormorant Garamond", serif;
+--font-body: "Poppins", sans-serif;
+--font-quote: "Cormorant Garamond", serif;
