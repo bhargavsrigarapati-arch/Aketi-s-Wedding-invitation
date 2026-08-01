@@ -148,3 +148,13 @@
   -webkit-text-fill-color: transparent;
   animation: shimmer 4s linear infinite;
 }
+@font-face {
+  font-family: "Migra";
+  src: url("/fonts/Migra-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-migra {
+  font-family: "Migra", serif;
+}
