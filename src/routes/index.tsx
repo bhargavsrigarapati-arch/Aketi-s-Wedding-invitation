@@ -293,7 +293,9 @@ function Opening({ onOpen }: { onOpen: () => void }) {
     <TitleFlourish className="h-10 w-28 sm:h-12 sm:w-32" flip />
   </div>
 
-  <div className="mt-6 font-cormorant text-4xl shimmer-text sm:text-5xl tracking-[0.08em]">
+  <div
+  className={`${cinzel.className} mt-6 text-4xl sm:text-5xl shimmer-text tracking-[0.18em] font-semibold`}
+>
   AKETI'S
   <br />
   WEDDING INVITATION
