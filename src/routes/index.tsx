@@ -296,14 +296,11 @@ function Opening({ onOpen }: { onOpen: () => void }) {
   <div
   className="
     mt-4
-    font-[var(--font-hero)]
-    italic
-    text-5xl
-    sm:text-6xl
-    md:text-7xl
-    font-semibold
-    tracking-normal
-    leading-[0.95]
+    font-[var(--font-script)]
+    text-6xl
+    sm:text-7xl
+    md:text-8xl
+    leading-[1.05]
     shimmer-text
   "
 >
